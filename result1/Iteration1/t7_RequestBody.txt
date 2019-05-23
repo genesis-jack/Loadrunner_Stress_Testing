@@ -1,0 +1,6 @@
+"{\r\n"
+""partner_token": "c304afdf-2f61-6369-c088-924f99e1be1a",\r\n"
+""player_token": "135f52bbb144ac1ac3a5b1829f7a6389",\r\n"
+""game_code": "NG-0063",\r\n"
+""device": "DESKTOP"\r\n"
+"}"

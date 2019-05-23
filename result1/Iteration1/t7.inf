@@ -1,0 +1,13 @@
+[t7]
+SnapshotXmlFile=snapshot_2.xml
+ContentType=application/json
+StepName=Rest Request: POST: https://nurgs.star9ad.com/ng/sessions/
+Total=1
+FileName1=t7.json
+RequestHeaderFile=t7_RequestHeader.txt
+ResponseHeaderFile=t7_ResponseHeader.txt
+RawStepEndTime=1558607545433
+RawStepName=POST: https://nurgs.star9ad.com/ng/sessions/
+RequestBodyFile=t7_RequestBody.txt
+RawStepStartTime=1558607545142
+URL1=https://nurgs.star9ad.com/ng/sessions/

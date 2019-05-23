@@ -1,0 +1,8 @@
+HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Content-Type: application/json
+Server: Nurgs 1.0.0
+Date: 2019-05-23T10:32:27.95
+Content-Length: 918
+

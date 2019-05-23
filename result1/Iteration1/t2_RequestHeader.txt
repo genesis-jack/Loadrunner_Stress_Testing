@@ -1,0 +1,10 @@
+GET /m4/wallet/balance/86577271 HTTP/1.1
+X-Genesis-PartnerToken: c304afdf-2f61-6369-c088-924f99e1be1a
+X-Genesis-Secret: 418184e911563cd861e90db6233d7d6c
+Content: application/json
+User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: Keep-Alive
+Host: krug-gw-colo.star9ad.com
+

@@ -1,0 +1,38 @@
+[
+    {
+        "actionName": "Get_Wallet_Session_Token",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Rest Request: GET: https://krug-gw-colo.star9ad.com/m4/wallet/balance...",
+                "infFile": "t2.inf",
+                "time": 1558607545051
+            }
+        ],
+        "transactions": []
+    },
+    {
+        "actionName": "Login",
+        "steps": [
+            {
+                "stepId": "STEP2",
+                "stepName": "Rest Request: POST: https://nurgs.star9ad.com/ng/sessions/",
+                "infFile": "t7.inf",
+                "time": 1558607545476
+            }
+        ],
+        "transactions": []
+    },
+    {
+        "actionName": "Spin",
+        "steps": [
+            {
+                "stepId": "STEP3",
+                "stepName": "Rest Request: POST: https://nurgs.star9ad.com/ng/take-turn/",
+                "infFile": "t8.inf",
+                "time": 1558607545668
+            }
+        ],
+        "transactions": []
+    }
+]

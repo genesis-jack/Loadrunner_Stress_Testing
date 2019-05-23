@@ -1,0 +1,10 @@
+[vuser_init]
+SnapshotIndex=I1_vuser_init
+[Spin]
+SnapshotIndex=I1_Spin
+[Login]
+SnapshotIndex=I1_Login
+[vuser_end]
+SnapshotIndex=I1_vuser_end
+[Get_Wallet_Session_Token]
+SnapshotIndex=I1_Get_Wallet_Session_Token

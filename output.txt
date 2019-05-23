@@ -1,0 +1,54 @@
+Virtual User Script started at: 2019/5/23 PM 06:32:24
+Starting action vuser_init.
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Starting action Get_Wallet_Session_Token.
+Get_Wallet_Session_Token.c(3): web_reg_save_param_json started  	[MsgId: MMSG-26355]
+Get_Wallet_Session_Token.c(3): Registering web_reg_save_param_json was successful  	[MsgId: MMSG-26390]
+Get_Wallet_Session_Token.c(12): web_rest("GET: https://krug-gw-colo.star9ad.com/m4/wallet/balance...") started  	[MsgId: MMSG-26355]
+Get_Wallet_Session_Token.c(12): Notify: ****************   web_add_header is called internally from web_rest. The following messages are from web_add_header   *****************
+Get_Wallet_Session_Token.c(12): web_add_header("X-Genesis-PartnerToken") started  	[MsgId: MMSG-26355]
+Get_Wallet_Session_Token.c(12): web_add_header("X-Genesis-PartnerToken") was successful  	[MsgId: MMSG-26392]
+Get_Wallet_Session_Token.c(12): web_add_header("X-Genesis-Secret") started  	[MsgId: MMSG-26355]
+Get_Wallet_Session_Token.c(12): web_add_header("X-Genesis-Secret") was successful  	[MsgId: MMSG-26392]
+Get_Wallet_Session_Token.c(12): web_add_header("Content") started  	[MsgId: MMSG-26355]
+Get_Wallet_Session_Token.c(12): web_add_header("Content") was successful  	[MsgId: MMSG-26392]
+Get_Wallet_Session_Token.c(12): Notify: ****************   End of messages from web_add_header   *****************
+Get_Wallet_Session_Token.c(12): web_rest("GET: https://krug-gw-colo.star9ad.com/m4/wallet/balance...") was successful, 208 body bytes, 208 header bytes  	[MsgId: MMSG-26386]
+Ending action Get_Wallet_Session_Token.
+Starting action Login.
+Login.c(3): web_reg_save_param_json started  	[MsgId: MMSG-26355]
+Login.c(3): Registering web_reg_save_param_json was successful  	[MsgId: MMSG-26390]
+Login.c(9): web_reg_save_param_json started  	[MsgId: MMSG-26355]
+Login.c(9): Registering web_reg_save_param_json was successful  	[MsgId: MMSG-26390]
+Login.c(15): web_reg_save_param_json started  	[MsgId: MMSG-26355]
+Login.c(15): Registering web_reg_save_param_json was successful  	[MsgId: MMSG-26390]
+Login.c(21): web_reg_save_param_json started  	[MsgId: MMSG-26355]
+Login.c(21): Registering web_reg_save_param_json was successful  	[MsgId: MMSG-26390]
+Login.c(28): web_rest("POST: https://nurgs.star9ad.com/ng/sessions/") started  	[MsgId: MMSG-26355]
+Login.c(28): Notify: ****************   web_add_header is called internally from web_rest. The following messages are from web_add_header   *****************
+Login.c(28): web_add_header("Content-Type") started  	[MsgId: MMSG-26355]
+Login.c(28): Warning -26594: The header being added may cause unpredictable results if applied to ALL the URLs generated on behalf of the next script function. It will apply to the primary URL only.  	[MsgId: MWAR-26594]
+Login.c(28): web_add_header("Content-Type") highest severity level was "warning"  	[MsgId: MMSG-26391]
+Login.c(28): web_add_header("Content-Type") started  	[MsgId: MMSG-26355]
+Login.c(28): Warning -26594: The header being added may cause unpredictable results if applied to ALL the URLs generated on behalf of the next script function. It will apply to the primary URL only.  	[MsgId: MWAR-26594]
+Login.c(28): Warning -26592: A header of the same name has been added already. This header is added anyway.  	[MsgId: MWAR-26592]
+Login.c(28): web_add_header("Content-Type") highest severity level was "warning"  	[MsgId: MMSG-26391]
+Login.c(28): Notify: ****************   End of messages from web_add_header   *****************
+Login.c(28): web_rest("POST: https://nurgs.star9ad.com/ng/sessions/") was successful, 1123 body bytes, 283 header bytes  	[MsgId: MMSG-26386]
+Ending action Login.
+Starting action Spin.
+Spin.c(3): web_rest("POST: https://nurgs.star9ad.com/ng/take-turn/") started  	[MsgId: MMSG-26355]
+Spin.c(3): Notify: ****************   web_add_header is called internally from web_rest. The following messages are from web_add_header   *****************
+Spin.c(3): web_add_header("Content-Type") started  	[MsgId: MMSG-26355]
+Spin.c(3): Warning -26594: The header being added may cause unpredictable results if applied to ALL the URLs generated on behalf of the next script function. It will apply to the primary URL only.  	[MsgId: MWAR-26594]
+Spin.c(3): web_add_header("Content-Type") highest severity level was "warning"  	[MsgId: MMSG-26391]
+Spin.c(3): Notify: ****************   End of messages from web_add_header   *****************
+Spin.c(3): web_rest("POST: https://nurgs.star9ad.com/ng/take-turn/") was successful, 918 body bytes, 195 header bytes  	[MsgId: MMSG-26386]
+Ending action Spin.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.
